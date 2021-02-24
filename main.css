@@ -7,16 +7,39 @@ and open the template in the editor.
     Created on : Feb 23, 2021, 8:27:57 PM
     Author     : jojoi
 */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 
 .background {
     max-height: 100%;
     max-width: 100%;
     width: 100vw;
     border: outset;
-    z-index: 3;
+    z-index: 2;
 }
 
-.dizian {
+.dizianbio {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    border: 3px solid orange;
+    width: 40vw;
+    left: 30vw;
+    top: 10vw;
+    z-index: 3;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-weight: bold;
+    
+    transition: visibility 0.5s, opacity 0.5s;
+}
+
+.dizianimg {
     position: absolute;
     top: 19vw;
     left: 46.5vw;
@@ -25,15 +48,24 @@ and open the template in the editor.
     height: auto;
     
     transition: all 0.3s ease-in-out 0s;
+    
 }
 
-.dizian:hover {
+.dizianimg:hover {
     cursor: default;
     transform: rotate(1800deg);
     transition: all 0.3s ease-in-out 0s;
 }
 
+.dizianwrap:hover .dizianbio {
+    visibility: visible;
+    opacity: 1;
+    
+}
 
+.text1:hover {
+    transform: rotateZ(7200deg);
+}
 
 
 .text1 {
@@ -43,10 +75,30 @@ and open the template in the editor.
     font-weight: bold;
     top: 0;
     text-align: center;
+    transition: 5s;
+    z-index: 1;
 }
 
-.text1:hover {
-    
+.text2 {
+    position: absolute;
+    font-size: 2vw;
+    font: sans-serif;
+    font-weight: bold;
+    z-index: 3;
+    color: white;
+    bottom: 3vw;
+    left: 32vw;
+}
+
+.text3 {
+    position: absolute;
+    font-size: 2vw;
+    font: sans-serif;
+    font-weight: bold;
+    z-index: 3;
+    color: white;
+    bottom: 1vw;
+    left: 34vw;
 }
 
 body { 
