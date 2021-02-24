@@ -9,14 +9,32 @@ and open the template in the editor.
 */
 
 .background {
-    
     max-height: 100%;
     max-width: 100%;
-    top: 15vw;
     width: 100vw;
     border: outset;
-    
+    z-index: 3;
 }
+
+.dizian {
+    position: absolute;
+    top: 19vw;
+    left: 46.5vw;
+    z-index: 1;
+    width: 6%;
+    height: auto;
+    
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.dizian:hover {
+    cursor: default;
+    transform: rotate(1800deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+
 
 .text1 {
     animation: color-change 0.1s infinite;
@@ -24,10 +42,18 @@ and open the template in the editor.
     font: sans-serif;
     font-weight: bold;
     top: 0;
+    text-align: center;
+}
+
+.text1:hover {
+    
 }
 
 body { 
-    background-color: black; 
+    animation-name: background-color;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
     overflow: hidden;
 }
 
@@ -38,4 +64,9 @@ body {
     60%{color: green;}
     80%{color: blue;}
     100%{color: purple;}
+}
+
+@keyframes background-color {
+  0% { background: white }
+  100% { background: black }
 }
