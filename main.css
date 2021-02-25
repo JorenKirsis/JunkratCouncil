@@ -69,7 +69,7 @@ and open the template in the editor.
 
 
 .text1 {
-    animation: color-change 0.1s infinite;
+    animation: color-change 5s infinite;
     font-size: 5vw;
     font: sans-serif;
     font-weight: bold;
@@ -103,7 +103,7 @@ and open the template in the editor.
 
 body { 
     animation-name: background-color;
-    animation-duration: 0.2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate; 
     overflow: hidden;
