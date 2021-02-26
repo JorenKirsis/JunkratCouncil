@@ -15,8 +15,6 @@ and open the template in the editor.
 
 .truebackground {
     position: absolute;
-    top: 0vw;
-    left 0vw;
     width: 100vw;
     z-index: 1;
 }
