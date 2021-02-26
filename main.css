@@ -166,7 +166,7 @@ and open the template in the editor.
 
 .kayaimg {
     position: absolute;
-    top: 19.5vw;
+    top: 21vw;
     left: 91vw;
     z-index: 1;
     width: 6%;
@@ -207,8 +207,8 @@ and open the template in the editor.
 
 .shompimg {
     position: absolute;
-    top: 19vw;
-    left: 57vw;
+    top: 20.5vw;
+    left: 59.5vw;
     z-index: 1;
     width: 6%;
     height: auto;
