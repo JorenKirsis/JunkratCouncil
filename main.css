@@ -282,7 +282,7 @@ and open the template in the editor.
     font-weight: bold;
     top: 0;
     text-align: center;
-    transition: 5s;
+    transition: 0.3s;
     z-index: 1;
 }
 
@@ -310,7 +310,7 @@ and open the template in the editor.
 
 body { 
     animation-name: background-color;
-    animation-duration: 5s;
+    animation-duration: .2s;
     animation-iteration-count: infinite;
     animation-direction: alternate; 
     overflow: hidden;
