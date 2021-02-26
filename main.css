@@ -269,7 +269,7 @@
 
 .text1 {
     animation: color-change 0.3s infinite;
-    position: absolute;
+    
     font-size: 5vw;
     font: sans-serif;
     font-weight: bold;
