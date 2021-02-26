@@ -282,7 +282,7 @@ and open the template in the editor.
     font-weight: bold;
     top: 0;
     text-align: center;
-    transition: 2.2s;
+    transition: 5s;
     z-index: 1;
 }
 
