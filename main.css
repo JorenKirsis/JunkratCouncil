@@ -302,8 +302,9 @@
 }
 
 body { 
-  background-image: url("JunkertownGood.png");
-  background-color: black;
+    background-image: url("JunkertownGood.png");
+    background-color: black;
+    overflow: hidden;
     
 }
 
