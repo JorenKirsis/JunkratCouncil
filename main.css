@@ -302,8 +302,9 @@
 }
 
 body { 
-    overflow: hidden;
-    background-image: url("JunkerTown.png");
+  background-image: url("JunkerTown.png");
+  background-color: black;
+    
 }
 
 @keyframes color-change {
