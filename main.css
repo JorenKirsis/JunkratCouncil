@@ -126,7 +126,7 @@ and open the template in the editor.
 .scruximg {
     position: absolute;
     top: 19vw;
-    left: 53vw;
+    left: 62vw;
     z-index: 1;
     width: 6%;
     height: auto;
@@ -141,7 +141,7 @@ and open the template in the editor.
     transition: all 0.3s ease-in-out 0s;
 }
 
-.scruxwrap:hover .dizianbio {
+.scruxwrap:hover .scruxbio {
     visibility: visible;
     opacity: 1;
 }
