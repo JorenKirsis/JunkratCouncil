@@ -167,7 +167,7 @@ and open the template in the editor.
 .kayaimg {
     position: absolute;
     top: 19vw;
-    right: 6vw;
+    left: 90vw;
     z-index: 1;
     width: 6%;
     height: auto;
