@@ -63,6 +63,48 @@ and open the template in the editor.
     
 }
 
+.flamebio {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    border: 3px solid orange;
+    width: 40vw;
+    left: 30vw;
+    top: 10vw;
+    z-index: 3;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-weight: bold;
+    
+    transition: visibility 0.5s, opacity 0.5s;
+}
+
+.flameimg {
+    position: absolute;
+    top: 18.5vw;
+    left: 9vw;
+    z-index: 1;
+    width: 6%;
+    height: auto;
+    
+    transition: all 0.3s ease-in-out 0s;
+    
+}
+
+.flameimg:hover {
+    cursor: default;
+    transform: rotate(1800deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.flamewrap:hover .flamebio {
+    visibility: visible;
+    opacity: 1;
+    
+}
+
 .text1:hover {
     transform: rotateZ(7200deg);
 }
