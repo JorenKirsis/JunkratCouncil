@@ -12,7 +12,8 @@
     max-width: 100%;
     width: 100vw;    
     border: outset;
-    z-index: 10; /*Z-INDEX SHOULD BE 2 */
+    z-index: 2; /*Z-INDEX SHOULD BE 2 */
+    visibility: invisible;
     
 }
 
@@ -318,7 +319,7 @@
     z-index: 5;
     color: white;
     bottom: 5vw;
-    left: 18vw;
+    left: 6vw;
 }
     
 body { 
