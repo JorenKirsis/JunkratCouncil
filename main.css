@@ -10,7 +10,7 @@
 .background {
     max-height: 100%;
     max-width: 100%;
-    width: 2vw;    /* CHANGE BACK TO 100 TO FIX */
+    width: 1000vw;    /* CHANGE BACK TO 100 TO FIX */
     border: outset;
     z-index: 2;
 }
