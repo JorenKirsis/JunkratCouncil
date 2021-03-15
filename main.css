@@ -261,6 +261,14 @@
     opacity: 1;
 }
 
+.burgerimg {           /* BURGER STUFF TO DELETE LATER */
+    position: absolute;
+    bottom: 5vw;
+    right: 5vw;
+    z-index: 3;
+    width: 6%;
+    height: auto;
+
 
 .text1:hover {
     transform: rotateZ(7200deg);
@@ -300,6 +308,16 @@
     bottom: 1vw;
     left: 34vw;
 }
+
+.burgertext {
+    position: absolute;
+    font-size: 2vw;
+    font: sans-serif;
+    font-weight: bold;
+    z-index: 5;
+    color: white;
+    bottom: 5vw;
+    left: 36vw;
 
 body { 
     background-image: url("JunkertownGood.png");
