@@ -10,9 +10,10 @@
 .background {
     max-height: 100%;
     max-width: 100%;
-    width: 1000vw;    /* CHANGE BACK TO 100 TO FIX */
+    width: 100vw;    /* CHANGE BACK TO 100 TO FIX */
     border: outset;
     z-index: 2;
+    visibility: invisible;
 }
 
 .dizianbio {
@@ -317,7 +318,7 @@
     z-index: 5;
     color: white;
     bottom: 5vw;
-    left: 36vw;
+    left: 30vw;
 }
     
 body { 
