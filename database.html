@@ -1,47 +1,49 @@
-
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="UTF-8">
-<title></title>
-<button onclick=""
+  <title>Register Form</title>
 </head>
 <body>
-<?php
-$dbServerName = "Your domain name here";
-$dbUsername = "admin_default";
-$dbPassword = "...........";
-$dbName = "admin_default";
-
-// create connection
-$conn = new mysqli($dbServerName, $dbUsername, $dbPassword, $dbName);
-
-// check connection
-if ($conn->connect_error) {
-die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
-
-$sql = "CREATE TABLE MyGuests2 (
-id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-firstname VARCHAR(30) NOT NULL,
-lastname VARCHAR(30) NOT NULL,
-email VARCHAR(50),
-reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-)";
-
-if ($conn->query($sql) === TRUE) {
-echo "Table MyGuests created successfully";
-} else {
-echo "Error creating table: " . $conn->error;
-}
-
-$conn->close();
-?>
+ <form action="insert.php" method="POST">
+  <table>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" name="username" required></td>
+   </tr>
+   <tr>
+    <td>Password :</td>
+    <td><input type="password" name="password" required></td>
+   </tr>
+   <tr>
+    <td>Gender :</td>
+    <td>
+     <input type="radio" name="gender" value="m" required>Male
+     <input type="radio" name="gender" value="f" required>Female
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" name="email" required></td>
+   </tr> 
+   <tr>
+    <td>Phone no :</td>
+    <td>
+     <select name="phoneCode" required>
+      <option selected hidden value="">Select Code</option>
+      <option value="977">977</option>
+      <option value="978">978</option>
+      <option value="979">979</option>
+      <option value="973">973</option>
+      <option value="972">972</option>
+      <option value="974">974</option>
+     </select>
+     <input type="phone" name="phone" required>
+    </td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit"></td>
+   </tr>
+  </table>
+ </form>
 </body>
 </html>
