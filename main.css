@@ -12,8 +12,8 @@ a.button {
     -moz-appearance: button;
     appearance: button;
     
-     bottom: 5vw;
-    left: 6vw;
+     bottom: 10vw;
+    left: 10vw;
     position: absolute;
     color: white;
 }
