@@ -18,6 +18,16 @@ a.button {
     color: white;
 }
 
+a.button2 {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    
+    bottom: 16vw;
+    left: 10vw;
+    position: absolute;
+    color: white;
+}
 
 
 
