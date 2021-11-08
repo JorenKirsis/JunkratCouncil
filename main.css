@@ -326,6 +326,47 @@ a.button2 {
     opacity: 1;
 }
 
+.nwdbio {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    border: 3px solid orange;
+    width: 40vw;
+    left: 30vw;
+    top: 10vw;
+    z-index: 4;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-weight: bold;
+    
+    transition: visibility 0.5s, opacity 0.5s;
+}
+
+.nwdimg {
+    position: absolute;
+    top: 19.5vw;
+    left: 85.25vw;
+    z-index: 3;
+    width: 6%;
+    height: auto;
+    
+    transition: all 0.3s ease-in-out 0s;
+    
+}
+
+.nwdimg:hover {
+    cursor: default;
+    transform: rotate(1800deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nwdwrap:hover .nwdbio {
+    visibility: visible;
+    opacity: 1;
+}
+
 .burgerimg {           /* BURGER STUFF TO DELETE LATER */
     position: absolute;
     bottom: 5vw;
