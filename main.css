@@ -307,7 +307,7 @@ a.button2 {
     position: absolute;
     top: 20.5vw;
     left: 54.5vw;
-    z-index: 3;
+    z-index: 1;
     width: 6%;
     height: auto;
     
@@ -346,8 +346,8 @@ a.button2 {
 
 .nwdimg {
     position: absolute;
-    top: 19.5vw;
-    left: 85.25vw;
+    top: 21.5vw;
+    left: 86vw;
     z-index: 3;
     width: 6%;
     height: auto;
