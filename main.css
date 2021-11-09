@@ -349,7 +349,7 @@ a.button2 {
     top: 21vw;
     left: 85vw;
     z-index: 3;
-    width: 6%;
+    width: 8%;
     height: auto;
     
     transition: all 0.3s ease-in-out 0s;
