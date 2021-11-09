@@ -308,7 +308,7 @@ a.button2 {
     top: 20.5vw;
     left: 54.5vw;
     z-index: 1;
-    width: 6%;
+    width: 5%;
     height: auto;
     
     transition: all 0.3s ease-in-out 0s;
@@ -389,7 +389,7 @@ a.button2 {
     position: absolute;
     top: 20.5vw;
     left: 11vw;
-    z-index: 3;
+    z-index: 1;
     width: 6%;
     height: auto;
     
