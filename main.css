@@ -387,8 +387,8 @@ a.button2 {
 
 .chroimg {
     position: absolute;
-    top: 20.5vw;
-    left: 11vw;
+    top: 20vw;
+    left: 10.5vw;
     z-index: 1;
     width: 6%;
     height: auto;
